@@ -30,3 +30,18 @@ The solution leverages Snowflake's native capabilities for seamless ingestion an
 
 The core analytical framework is built on a Star Schema, dividing data into Facts (measures) and Dimensions (attributes).
 ![Star Schema Diagram for Sales Data](star_schema.png)
+
+**Tools & Technologies**
+
+**Data Warehouse Platform:Snowflake**	: The primary cloud data warehouse platform hosting the entire analytical environment, including schemas, tables, and compute.
+
+**Source/Transactional Database:Oracle** :	The source system for historical data, requiring migration to Snowflake.
+
+**Cloud Storage	AWS S3** : Used as the external stage for automated loading of data files via a Storage Integration.
+
+**ETL/Data Migration Tool:Informatica** :	The chosen tool for the complex migration and transformation of data from Oracle to Snowflake.
+
+**Data Loading & Staging:Snowflake Stages** : Utilized both Internal Stage (int_stg)for local data and External Stage (ext_stg) for AWS S3 to auto ingest files.
+
+**SnowSQL** :	Used for local data loading into the internal stage.
+
