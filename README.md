@@ -1,0 +1,2 @@
+# E-Commerce-Data-Warehouse-Implementation-on-Snowflake-Multi-Source-ETL-ELT-and-Star-Schema-Design
+This project focuses on designing and implementing a robust, scalable, and high-performance E-Commerce Data Warehouse on the Snowflake cloud data platform. The primary objective is to consolidate transactional and sales data from sources, cleanse the data, and transform it into a Dimensional Model (Star Schema) optimized for analytical reporting
