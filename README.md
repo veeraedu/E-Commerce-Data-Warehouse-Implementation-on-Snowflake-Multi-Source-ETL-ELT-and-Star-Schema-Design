@@ -29,3 +29,4 @@ The solution leverages Snowflake's native capabilities for seamless ingestion an
 **Data Architecture (Star Schema)**
 
 The core analytical framework is built on a Star Schema, dividing data into Facts (measures) and Dimensions (attributes).
+![Star Schema Diagram for Sales Data](star_schema.png)
